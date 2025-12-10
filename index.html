@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quick Grocery List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Quick Grocery List</h1>
+    <p class="subtitle">Add items you need to buy and tick them off while shopping.</p>
+
+    <div class="input-row">
+      <input id="item-input" type="text" placeholder="e.g. Eggs, Milk, Bread" />
+      <button id="add-btn">Add</button>
+    </div>
+
+    <ul id="list" class="list"></ul>
+    <p id="empty-message" class="empty-message">No items yet. Add your first one!</p>
+
+    <div class="footer-row">
+      <span id="count-text">0 items</span>
+      <button id="clear-btn" class="clear-btn">Clear all</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
